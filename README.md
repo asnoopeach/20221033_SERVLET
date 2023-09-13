@@ -48,3 +48,4 @@ To watch some usage guides, visit [https://help.goorm.io/en/goormide](https://he
 
 
 23년 9 6 쇼핑몰 메인 페이지
+23년 9 13 쇼핑몰 메인화면 배너 만들기, forward 액션태그 확인 완료
