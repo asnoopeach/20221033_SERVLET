@@ -9,8 +9,8 @@
 	
 <footer class = "container">
             <p>
-                &copy; WebMarket
-            </p>
+                &copy; 대표: 홍재원, 고유번호 : 20221033, 연락처 : asnoopeach@sungkyul.ac.kr <br>
+            
             <%
                 Date day = new java.util.Date();
                 String am_pm;
@@ -26,6 +26,7 @@
                 String CT = hour + ":" + minute + ":" + second + " " + am_pm;
                 out.println("현재 접속  시각: " + CT + "\n");
             %>
+                </p>
  </footer>
 </body>
 </html>
