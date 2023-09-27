@@ -13,10 +13,10 @@ public class ProductRepository {
 		phone.setManufacturer("Clog");
 		phone.setUnitsInStock(1000);
 		phone.setCondition("New");
-		Product notebook = new Product("P1235", "City Butte", 260000);
-		notebook.setDescription("color: Worchester, Dune, Black");
-		notebook.setCategory("Boots");
-		notebook.setManufacturer("Butte");
+		Product notebook = new Product("P1235", "CA805 V2 Remix Heritage", 230000);
+		notebook.setDescription("color: Chestnut, Black");
+		notebook.setCategory("Sneakers");
+		notebook.setManufacturer("Heritage");
 		notebook.setUnitsInStock(1000);
 		notebook.setCondition("Refurbished");
 
