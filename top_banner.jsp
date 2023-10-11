@@ -10,7 +10,7 @@
     
 	
     <div class="text-center">
-    <img src="image\banner2.jpg" class="img-fluid" alt="banner_image">
+    <img src="Admin\image\banner2.jpg" class="img-fluid" alt="banner_image">
 </div>
 
 

@@ -5,6 +5,12 @@ import dto.Product;
 public class ProductRepository {
 
 	private ArrayList<Product> listOfProducts = new ArrayList<Product>(); // ArrayList를 Product로 캐스팅
+    private static ProductRepository instance = new ProductRepository();
+
+    
+   public static ProductRepository getInstance(){
+	return instance;
+   }
 
 	public ProductRepository() {
 		Product phone = new Product("P1234", "Cottage Clog", 170000);
@@ -52,5 +58,10 @@ public class ProductRepository {
 		}
 		return productById;
 	}
+    
+   public void addProduct(Product product) {
+	listOfProducts.add(product);
+   }
+
     
 }
