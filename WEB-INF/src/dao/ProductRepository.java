@@ -32,12 +32,28 @@ public class ProductRepository {
 		tablet.setManufacturer("Tasman");
 		tablet.setUnitsInStock(1000);
 		tablet.setCondition("Old");
+        
+        Product pen = new Product("P1237", "Classic Ultra Mini", 200000);
+		tablet.setDescription("color: Smoke Plume");
+		tablet.setCategory("Boots");
+		tablet.setManufacturer("Classic");
+		tablet.setUnitsInStock(1000);
+		tablet.setCondition("Old");
+        
+        Product book = new Product("P1238", "UGG X Cookie Monster Tasman II", 120000);
+		tablet.setDescription("color: Brown");
+		tablet.setCategory("Slippers");
+		tablet.setManufacturer("Tasman");
+		tablet.setUnitsInStock(1000);
+		tablet.setCondition("Old");
 		
 		// 위와 같이 상품 초기화 하고 아래에 상품을 추가
 
 		listOfProducts.add(phone);
 		listOfProducts.add(notebook);
 		listOfProducts.add(tablet);
+        listOfProducts.add(pen);
+        listOfProducts.add(book);
 		// listOfProducts.add(상품명);
 	}
 

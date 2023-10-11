@@ -13,7 +13,7 @@ public class Product implements Serializable { // 인터페이스 선언
 	private String category; 	//분류
 	private long unitsInStock; //재고수 
 	private String condition; 	//신상품 or 중고품 or 재생품
-    private String filename; 	// 파일 이름 변수
+    
  
 
     public Product() {
