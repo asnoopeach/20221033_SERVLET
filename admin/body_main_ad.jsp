@@ -55,7 +55,7 @@
 
         
      <div class="card bg-dark text-white">
-    <img src="../image/mainboots_8_1.jpg" class="card-img" alt="...">
+    <img src="image/product/<%=product.getFilename()%>" class="card-img" alt="...">
     <div class="card-img-overlay">
     <h5 class="card-title">New Arrivals</h5>
     <p class="card-text">source : UGG.com</p>

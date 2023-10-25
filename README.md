@@ -51,4 +51,5 @@ To watch some usage guides, visit [https://help.goorm.io/en/goormide](https://he
 23년 9 13 쇼핑몰 메인화면 배너 만들기, forward 액션태그 확인 완료
 23년 9 27 쇼핑몰 상품 목록 페이지(이미지 포함) 추가
 23년 10월 4일 쇼핑몰 상품 상세 페이지 추가
+23년 10월 25일 쇼핑몰 로그인 기능 추가
 

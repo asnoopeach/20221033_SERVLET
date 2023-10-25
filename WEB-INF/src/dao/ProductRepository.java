@@ -19,12 +19,17 @@ public class ProductRepository {
 		phone.setManufacturer("Clog");
 		phone.setUnitsInStock(1000);
 		phone.setCondition("New");
+        phone.setFilename("P1234.png");
+
+        
 		Product notebook = new Product("P1235", "CA805 V2 Remix Heritage", 230000);
 		notebook.setDescription("color: Chestnut, Black");
 		notebook.setCategory("Sneakers");
 		notebook.setManufacturer("Heritage");
 		notebook.setUnitsInStock(1000);
 		notebook.setCondition("Refurbished");
+        notebook.setFilename("P1235.png");
+
 
 		Product tablet = new Product("P1236", "UGG X Cookie Monster Tasman II", 120000);
 		tablet.setDescription("color: Brown");
@@ -32,20 +37,24 @@ public class ProductRepository {
 		tablet.setManufacturer("Tasman");
 		tablet.setUnitsInStock(1000);
 		tablet.setCondition("Old");
+        tablet.setFilename("P1236.png");
+
         
         Product pen = new Product("P1237", "Classic Ultra Mini", 200000);
-		tablet.setDescription("color: Smoke Plume");
-		tablet.setCategory("Boots");
-		tablet.setManufacturer("Classic");
-		tablet.setUnitsInStock(1000);
-		tablet.setCondition("Old");
+		pen.setDescription("color: Smoke Plume");
+		pen.setCategory("Boots");
+		pen.setManufacturer("Classic");
+		pen.setUnitsInStock(1000);
+		pen.setCondition("New");
+        pen.setFilename("P1237.png");
         
-        Product book = new Product("P1238", "UGG X Cookie Monster Tasman II", 120000);
-		tablet.setDescription("color: Brown");
-		tablet.setCategory("Slippers");
-		tablet.setManufacturer("Tasman");
-		tablet.setUnitsInStock(1000);
-		tablet.setCondition("Old");
+        Product book = new Product("P1238", "Maxi Slide Logo", 110000);
+		book.setDescription("color: Black, Pink Scallop, White");
+		book.setCategory("Slides");
+		book.setManufacturer("Maxi");
+		book.setUnitsInStock(1000);
+		book.setCondition("Old");
+        book.setFilename("P1238.png");
 		
 		// 위와 같이 상품 초기화 하고 아래에 상품을 추가
 
