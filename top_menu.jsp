@@ -30,7 +30,8 @@
             <a class="navbar-brand" href="./index.jsp">MEN</a>
             <a class="navbar-brand" href="./index.jsp">KIDS</a>
             <a class="navbar-brand" href="./index.jsp">SALE</a>
-             <a class="navbar-brand" href="../index_ad.jsp">일반모드</a>
+            <a class="navbar-brand" href="admin/index_ad.jsp">관리자모드</a>
+
 
          </div>
       </div>

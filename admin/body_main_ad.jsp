@@ -1,4 +1,7 @@
-
+<%@ page contentType="text/html; charset=utf-8"%>
+<%@ page import="java.util.ArrayList"%>
+<%@ page import="dto.Product"%> <!--패키지 연동 -->
+<%@ page import="dao.ProductRepository"%>
 
 <html>
 <head>
@@ -6,10 +9,7 @@
 <title>Welcome</title>
 </head>
 <body>	<%-- JSP 주석 처리 --%>
-    <%@ page contentType="text/html; charset=utf-8"%>
-    <%@ page import="java.util.ArrayList"%>
-    <%@ page import="dto.Product"%> <!--패키지 연동 -->
-    <%@ page import="dao.ProductRepository"%>
+
     <!--<jsp:useBean id="productDAO" class="dao.ProductRepository" scope="session" />
 -->
    <%! String greeting = "UGGRO 공식 사이트";
@@ -35,7 +35,7 @@
 			%>
 			<div class="col-md-4">
                 <div class="card bg-dark text-white">
-                        <img src="../image/product/<%=product.getProductId()%>.png" class="card-img" alt="...">
+                        <img src="../image/product/<%=product.getFilename()%>" class="card-img" alt="...">
                         <div class="card-img-overlay">
                         <h5 class="card-title">New Arrivals</h5>
                         <p class="card-text">source : UGG.com</p>
@@ -53,15 +53,7 @@
 		<hr>
 	</div>
 
-        
-     <div class="card bg-dark text-white">
-    <img src="image/product/<%=product.getFilename()%>" class="card-img" alt="...">
-    <div class="card-img-overlay">
-    <h5 class="card-title">New Arrivals</h5>
-    <p class="card-text">source : UGG.com</p>
-      </div>
-        
-    </div>
+
     
     <div class="list-group">
       <a href="#" class="list-group-item list-group-item-action active" aria-current="true">Tazz UGGbraid</a>

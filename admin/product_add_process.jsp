@@ -13,7 +13,7 @@
 	String name = multi.getParameter("name");
 	String unitPrice = multi.getParameter("unitPrice");
 	String description = multi.getParameter("description");
-	String manufacturer = multi.getParameter("manufacturer"");
+	String manufacturer = multi.getParameter("manufacturer");
 	String category = multi.getParameter("category");
 	String unitsInStock = multi.getParameter("unitsInStock");
 	String condition = multi.getParameter("condition");
