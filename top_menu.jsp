@@ -10,7 +10,9 @@
     <div>
         <img src="image\uggro.png" class="img-fluid" alt="main_image">
     </div>
+    <div class="navbar-header">
      <nav class="navbar navbar-expand  navbar-light bg-light">
+         <div class="container">
       <div class="dropdown">
           <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           MENU
@@ -20,22 +22,21 @@
         <a class="dropdown-item" href="#">BEST</a>
         <a class="dropdown-item" href="#">OUTLET</a>
         <a class="dropdown-item" href="#">COLLECTION</a>
-     </div>
-   </div>
+          </div>
+   
     
-
-     <div class="container">
-         <div class="navbar-header">
+         
             <a class="navbar-brand" href="./index.jsp">WOMEN</a>
             <a class="navbar-brand" href="./index.jsp">MEN</a>
             <a class="navbar-brand" href="./index.jsp">KIDS</a>
             <a class="navbar-brand" href="./index.jsp">SALE</a>
             <a class="navbar-brand" href="admin/index_ad.jsp">관리자모드</a>
 
-
+          </div>
          </div>
-      </div>
-     </nav>
+          </nav>
+         </div>
+    
 
 </body>
 </html>

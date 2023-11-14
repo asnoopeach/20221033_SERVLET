@@ -8,10 +8,7 @@
 </head>
 <body>	<%-- JSP 주석 처리 --%>
     
-	
-    <div class="text-center">
-    <img src="admin\image\banner2.jpg" class="img-fluid" alt="banner_image">
-</div>
+
 
 
 </body>

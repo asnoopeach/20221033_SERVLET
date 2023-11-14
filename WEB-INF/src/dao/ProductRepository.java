@@ -39,30 +39,14 @@ public class ProductRepository {
 		tablet.setCondition("Old");
         tablet.setFilename("P1236.png");
 
-        
-        Product pen = new Product("P1237", "Classic Ultra Mini", 200000);
-		pen.setDescription("color: Smoke Plume");
-		pen.setCategory("Boots");
-		pen.setManufacturer("Classic");
-		pen.setUnitsInStock(1000);
-		pen.setCondition("New");
-        pen.setFilename("P1237.png");
-        
-        Product book = new Product("P1238", "Maxi Slide Logo", 110000);
-		book.setDescription("color: Black, Pink Scallop, White");
-		book.setCategory("Slides");
-		book.setManufacturer("Maxi");
-		book.setUnitsInStock(1000);
-		book.setCondition("Old");
-        book.setFilename("P1238.png");
+   
 		
 		// 위와 같이 상품 초기화 하고 아래에 상품을 추가
 
 		listOfProducts.add(phone);
 		listOfProducts.add(notebook);
 		listOfProducts.add(tablet);
-        listOfProducts.add(pen);
-        listOfProducts.add(book);
+     
 		// listOfProducts.add(상품명);
 	}
 
