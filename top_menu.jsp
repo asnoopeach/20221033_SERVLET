@@ -25,7 +25,7 @@
           </div>
    
     
-         
+            <a class="navbar-brand" href="index.jsp">상품목록(기본 홈)</a>
             <a class="navbar-brand" href="./index.jsp">WOMEN</a>
             <a class="navbar-brand" href="./index.jsp">MEN</a>
             <a class="navbar-brand" href="./index.jsp">KIDS</a>
