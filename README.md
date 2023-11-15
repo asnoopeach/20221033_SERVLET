@@ -53,4 +53,5 @@ To watch some usage guides, visit [https://help.goorm.io/en/goormide](https://he
 23년 10월 4일 쇼핑몰 상품 상세 페이지 추가
 23년 10월 25일 쇼핑몰 로그인 기능 추가
 23년 11월 14일 쇼핑몰 상품 등록 추가, 로그인, 장바구니까지 안된 부분 다 해결 완료
+23년 11월 15일 쇼핑몰 주문 처리 페이지 추가
 
