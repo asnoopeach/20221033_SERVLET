@@ -1,4 +1,4 @@
-
+<%@ page contentType = "text/html; charset=utf-8" %>
 
 <html>
 <head>
@@ -6,7 +6,7 @@
 <title>Welcome</title>
 </head>
 <body>	<%-- JSP 주석 처리 --%>
-    <%@ page contentType = "text/html; charset=utf-8" %>
+    
     <div>
         <img src="image\uggro.png" class="img-fluid" alt="main_image">
     </div>

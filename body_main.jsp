@@ -1,4 +1,4 @@
-
+<%@ page contentType="text/html; charset=utf-8"%>
 
 <html>
 <head>
@@ -6,7 +6,7 @@
 <title>Welcome</title>
 </head>
 <body>	<%-- JSP 주석 처리 --%>
-    <%@ page contentType="text/html; charset=utf-8"%>
+   
     <%@ page import="java.util.ArrayList"%>
     <%@ page import="dto.Product"%>
     <jsp:useBean id="productDAO" class="dao.ProductRepository" scope="session" />
@@ -14,8 +14,8 @@
 <%@ include file="db/db_conn.jsp"%>
 
     
-   <%! String greeting = "현재 페이지는 VGA 그래픽 카드 상품 목록입니다.";
-      String tagline = "하단 페이지 : 확인";%>
+   <%! String greeting = "Welcome to UGGRO";
+      String tagline = "UGGRO.com";%>
 
     <div class="container">
 	<div class="jumbotron">
@@ -38,17 +38,16 @@
 	%>
 <div class="col-md-3">
                        <div class="card bg-dark text-white">
-                    	<img src="image/product/<%=rs.getString("p_fileName")%>" class="card-img" alt="...">
-                    	<div class="card-img-overlay">
+                    	<img src="image/product/<%=rs.getString("p_fileName")%>" class="card-img" alt="...">                    	<div class="card-img-overlay">
                     	<h5 class="card-title">New Arrivals</h5>
                     	<p class="card-text">source : UGG.com</p>
                 	      </div>
 	   </div>
 			
-				<h3><%=rs.getString("p_name")%></h3>
+		<h3><%=rs.getString("p_name")%></h3>
 		<p><%=rs.getString("p_description")%>
 		<p><%=rs.getString("p_UnitPrice")%>원
-		<p><a href="product_detail.jsp?id=<%=rs.getString("p_id")%>" class="btn btn-secondary" role="button"> 상세 정보 &raquo;></a>
+		<p><a href="product_detail.jsp?id=<%=rs.getString("p_id")%>" class="btn btn-light" role="button"> 상세 정보 &raquo;></a>
 
 			</div>
 			<%
@@ -64,17 +63,9 @@
 		</div>
 		<hr>
 	</div>
-
-        
-     <div class="card bg-dark text-white">
-    <img src="image/mainboots_8_1.jpg" class="card-img" alt="...">
-    <div class="card-img-overlay">
-    <h5 class="card-title">New Arrivals</h5>
-    <p class="card-text">source : UGG.com</p>
-      </div>
-        
-    </div>
     
+    
+   
     <div class="list-group">
       <a href="#" class="list-group-item list-group-item-action active" aria-current="true">Tazz UGGbraid</a>
       <a href="#" class="list-group-item list-group-item-action">Classic Mini</a>
