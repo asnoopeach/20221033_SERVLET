@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    	<%@ include file="top_banner.jsp" %>
+    	<%@ include file="top_banner_ad.jsp" %>
 	<%@ include file="top_menu_ad.jsp" %>
 	<div class="jumbotron">
 		<div class="container">
@@ -52,6 +52,6 @@
 		</div>
 		<hr>
 	</div>
-    <%@ include file="footer.jsp" %>
+    <%@ include file="../footer.jsp" %>
 </body>
 </html>

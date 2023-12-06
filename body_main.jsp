@@ -64,7 +64,14 @@
 		<hr>
 	</div>
     
-    
+    <div class="card bg-dark text-white">
+    <img src="image/mainboots_8_1.jpg" class="card-img" alt="...">
+    <div class="card-img-overlay">
+    <h5 class="card-title">New Arrivals</h5>
+    <p class="card-text">source : UGG.com</p>
+  </div>
+  </div>
+
    
     <div class="list-group">
       <a href="#" class="list-group-item list-group-item-action active" aria-current="true">Tazz UGGbraid</a>

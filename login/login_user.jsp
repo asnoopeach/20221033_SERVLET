@@ -1,0 +1,51 @@
+<%@ page contentType="text/html; charset=utf-8"%>
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+	<jsp:include page="../top_menu.jsp" />
+	<div class="jumbotron">
+		<div class="container">
+			<h1 class="display-3">일반 사용자 모드 접근 - 로그인이 필요합니다.</h1>
+		</div>
+	</div>
+	<div class="container" align="center">
+		<div class="col-md-4 col-md-offset-4">
+			<h3 class="form-signin-heading">Please sign in</h3>
+			<%
+String error = request.getParameter("error");
+if (error != null) {
+    out.println("<div class='alert alert-danger'>");
+    out.println("아이디와 비밀번호를 확인해 주세요");
+    out.println("</div>");
+}
+%>
+			<form class="form-signin" action="./login_process.jsp" method="post">
+				<div class="form-group">
+					<label for="inputid" class="sr-only">User Name</label> 
+					<input type="text" class="form-control" placeholder="ID" name='j_id' required>
+				</div>
+				<div class="form-group">
+					<label for="inputpassword" class="sr-only">Password</label> 
+					<input  type="password" class="form-control" placeholder="Password" name='j_password' required>
+				</div>
+				<button class="btn btn btn-lg btn-success btn-block" type="submit">로그인</button>
+			</form>
+			<form action="../member/member_join.jsp" method="post">
+				<button class="btn btn btn-lg btn-success btn-block" type="submit">회원가입</button>
+			</form>
+			<%
+				String success = request.getParameter("success");
+				if (success != null && success.equals("true")) {
+					String id = request.getParameter("id");
+					out.println("<div class='alert alert-success'>");
+					out.println("<strong>회원 가입이 성공적으로 완료되었습니다.</strong><br><br>");
+					out.println("<strong>ID:</strong> " + id + "<br>");
+					out.println("</div>");
+				}
+			%>
+		</div>
+	</div>
+</body>
+</html>
